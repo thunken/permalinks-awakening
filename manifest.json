@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Permalink's Awakening",
+  "version": "1.0.0",
+  "description": "Add a link to the page's most durable URL (permalink, persistent identifier, or canonical link) next to the page's title.",
+  "homepage_url": "https://thunken.com/",
+  "icons": {
+    "128": "img/icon-128.png"
+  },
+  "browser_action": {
+    "default_popup": "html/popup.html"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "css/permalink.css"
+      ],
+      "js": [
+        "js/settings.js",
+        "js/permalink.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}

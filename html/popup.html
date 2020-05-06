@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="/css/popup.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Permalink's Awakening</h1>
+    <h2>Settings</h1>
+    <div>
+      <input type="checkbox" id="includePermalinks">
+      <label for="includePermalinks">Include permalinks (recommended)</label>
+    </div>
+    <div>
+      <input type="checkbox" id="includePIDs">
+      <label for="includePIDs">Include persistent identifiers (recommended)</label>
+    </div>
+    <div>
+      <input type="checkbox" id="includeCanonicalLinks">
+      <label for="includeCanonicalLinks">Include canonical links</label>
+    </div>
+    <h2>Reset all settings</h1>
+    <div>
+      Click to reset all settings to their defaults: <input type="button" id="reset" value="Reset">
+    </div>
+  </body>
+  <script src="/js/settings.js"></script>
+  <script src="/js/popup.js"></script>
+</html>
