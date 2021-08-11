@@ -4,6 +4,10 @@ Permalink’s Awakening is a small open-source browser extension that adds a lin
 
 Permalink’s Awakening works on many journals and platforms, including but not limited to PubMed, arXiv, Open Journal Systems, Wikipedia, Nature, Science, etc.
 
+## Deprecation notice
+
+**In light of recent developments with [Cobaltmetrics](https://cobaltmetrics.com/), this extension is no longer maintained.**
+
 ## Add to Chrome
 
 👉 https://chrome.google.com/webstore/detail/permalinks-awakening/ciephhbpokgilmomciakhnglkmbpdoin 👈
